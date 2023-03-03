@@ -1,12 +1,20 @@
-html {
+/* html {
     height: 100%;
-}
+} */
 
 body {
     background-image: linear-gradient(#fff,#2C394B);
     width: 100%;
     height: 100%;
     margin: 0 auto;
+}
+
+hr {
+    margin: 5%;
+}
+
+.container-fluid {
+    padding: 6% 9% 0;
 }
 
 /* .top {
@@ -16,7 +24,7 @@ body {
 } */
 
 .banner {
-    padding-top: 10%;
+    padding-top: 2%;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -49,15 +57,11 @@ body {
     filter: blur(3px);
 }
 
-#bio {
-    padding: 5rem 0 0.2rem;
-}
-
 .name {
     text-align: center;
     color: #fff;
     font-family: 'Roboto Condensed', sans-serif;
-    padding: 4rem 0;
+    padding: 4rem 0 0;
 }
 
 .name h1 {
@@ -71,3 +75,40 @@ body {
     margin: 1rem;
 }
 
+.qualifications-row {
+    /* background-color: red; */
+    padding-top: 0;
+}
+
+.powershell-col {
+    /* background-color: blue; */
+    display: inline-block;
+}
+
+.powershell-col p {
+    /* color: red; */
+    display: inline-block;
+}
+
+.azure-col {
+    /* background-color: green; */
+}
+
+.qualifications-logo {
+    width: 20%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.qual-heading {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.qualifications-text {
+    display: inline-block;
+    font-size: 180%;
+    line-height: 1.5;
+    padding-top: 9%
+}
