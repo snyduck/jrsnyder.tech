@@ -10,6 +10,15 @@ body {
   background-color: #4f6697;
 }
 
+h1 {
+font-weight: bold;
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
 hr {
   border: 0;
   height: 3px;
@@ -42,12 +51,6 @@ hr:after {
 
 /* Site Body */
 
-/* .top {
-    position: relative;
-    z-index: 0;
-    padding-bottom: 9rem;
-} */
-
 #background-top {
   background-position: top;
   top: 0;
@@ -68,6 +71,15 @@ hr:after {
   background-size: cover;
 }
 
+.banner {
+  padding-top: 2%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  right: 50%;
+  top: 50%;
+}
+
 .banner-container {
   background-image: linear-gradient(
     to bottom,
@@ -78,29 +90,10 @@ hr:after {
   padding-bottom: 5%;
 }
 
-.banner {
-  padding-top: 2%;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  right: 50%;
-  top: 50%;
-}
-
-.banner-background {
-  z-index: 1;
-  height: 23rem;
-  /* height: ; */
-  width: 95%;
-  justify-content: center;
-  filter: blur(3px);
-}
-
 .pfp {
-  position: absolute;
   z-index: 2;
   border-radius: 100%;
-  width: 27rem;
+  width: 25%;
   border-style: solid;
   border-color: rgba(29, 38, 165, 0.507);
   box-shadow: 10px 12px 0.5rem rgba(0, 0, 0, 0.5);
