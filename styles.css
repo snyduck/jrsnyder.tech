@@ -7,6 +7,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  background-color: #4f6697;
 }
 
 hr {
@@ -47,8 +48,33 @@ hr:after {
     padding-bottom: 9rem;
 } */
 
+#background-top {
+  background-position: top;
+  top: 0;
+  -webkit-mask-image: linear-gradient(to top, transparent 50%, black 90%);
+  mask-image: linear-gradient(to top, transparent 50%, black 90%);
+  z-index: -1;
+}
+
+.background-image {
+  --background-width: 3840px;
+  --background-height: 1440px;
+  --background-url: url("images/banner-img.png");
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  max-height: 1200px;
+  background: var(--background-url) no-repeat;
+  background-size: cover;
+}
+
 .banner-container {
-  background-image: linear-gradient(#fff, #2c394b);
+  background-image: linear-gradient(
+    to bottom,
+    transparent 30%,
+    #4f6697,
+    #2c394b
+  );
   padding-bottom: 5%;
 }
 
