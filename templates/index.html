@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -29,39 +29,86 @@
     <script src="https://kit.fontawesome.com/047091ff1a.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="the-top">
-    <section id='top'>
-        <div class='row top'>
-        </div>
-    </section>
-
-    <section id="banner">
-        <div class='container-fluid banner-container'>
-            <div class='row banner'>
-                <img class='banner-background' src="static/images/datacenter.jpg" alt="">
-                <img class='pfp' src="static/images/me.jpg" alt="">
+<section id='bio' class="section">
+    <div class="container intro-banner">
+        <div class="row">
+            <div class="col-lg-8 name">
+                <p>James R. Snyder</p>
+                <hr>
+                <p>Systems Engineer</p>
+                <a href="https://github.com/snyduck"><button type="button"
+                        class="btn btn-secondary btn-lg social-btns"><i class="fab fa-github"></i></button></a>
+                <a href="https://www.linkedin.com/in/snyduck-io"><button type="button"
+                        class="btn btn-secondary btn-lg social-btns"><i class="fab fa-linkedin-in"></i></button></a>
+                <a href="mailto:james@jrsnyder.tech?subject=Hello, James""><button type=" button"
+                    class="btn btn-secondary btn-lg social-btns"><i class="fas fa-envelope"></i></button></a>
             </div>
-            <div class="name">
-                <h1>James Snyder</h1>
-                <h3>Systems Engineer</h3>
-                <a href="https://github.com/snyduck"><button type="button" class="btn btn-secondary btn-lg social-btns"><i class="fab fa-github"></i></button></a>
-                <a href="https://www.linkedin.com/in/snyduck-io"><button type="button" class="btn btn-secondary btn-lg social-btns"><i class="fab fa-linkedin-in"></i></button></a>
-                <a href="mailto:james@jrsnyder.tech?subject=Hello, James""><button type="button" class="btn btn-secondary btn-lg social-btns"><i class="fas fa-envelope"></i></button></a>
+            <div class="col-lg-4 picture d-flex flex-wrap align-items-center">
+                <img src="/static/images/me.jpg" class="headshot rounded img-fluid" alt="">
             </div>
         </div>
-    </section>
+    </div>
+</section>
+<section class="section" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1>About Me</h1>
+                <p>
+                    Systems engineer speciasdfasdfalizing in Windows, Linux, and the Azure cloud.
+                </p>
+                <p>
+                    When I'm not writing PowerShell code or architecting Windows systems I'm enjoying out in nature
+                    either on foot or on my mountain bike.
+                </p>
+                <p>
+                    I'm also an amateur web designer.
+                </p>
 
-    <!-- <section id='bio'>
-        <div class="container name">
+                <p>
+                    Lorem ipsum odor amet, consectetuer adipiscing elit. Nascetur hendrerit aptent vulputate mus cursus
+                    netus nunc. Ante nostra conubia volutpat conubia felis augue imperdiet. Mattis aliquet primis
+                    pellentesque egestas lacus laoreet dignissim. Turpis convallis aptent torquent accumsan dignissim
+                    cursus primis. Donec vivamus penatibus lacus mauris vitae laoreet est. Pulvinar nisi dictum facilisi
+                    litora laoreet dapibus malesuada. Dictum mattis sapien, duis congue inceptos leo nisi nisl.
 
+                    Porta malesuada senectus eget tristique suscipit urna metus. Fusce curae litora aliquet himenaeos
+                    aliquet auctor dui. Nisi varius torquent senectus nascetur, maximus non orci ornare. Aliquet
+                    condimentum enim euismod molestie mi pellentesque mattis! Inceptos nibh mattis non nullam velit.
+                    Integer vitae tristique leo vestibulum hendrerit aliquet dolor mi torquent. Convallis lectus
+                    maecenas torquent scelerisque taciti. Mauris habitant libero; odio turpis nec bibendum porttitor mi.
+
+                    Gravida nascetur ante elementum elit, torquent aenean. Nulla class himenaeos mollis ultricies, quis
+                    vulputate dapibus curabitur cursus. Diam enim eu per magnis nam vulputate. Pulvinar neque nam eu
+                    placerat dignissim magna. Felis nostra mattis justo tempor pulvinar placerat. Metus conubia libero
+                    aliquet sem; interdum eu suspendisse porta. Imperdiet a potenti accumsan ac; dictum nullam vitae.
+                    Pulvinar integer auctor ultricies; aliquam bibendum donec nibh. Habitant turpis mauris ridiculus
+                    tristique pretium placerat.
+                </p>
+                <!-- <p>
+                    Lorem ipsum odor amet, consectetuer adipiscing elit. Nascetur hendrerit aptent vulputate mus cursus
+                    netus nunc. Ante nostra conubia volutpat conubia felis augue imperdiet. Mattis aliquet primis
+                    pellentesque egestas lacus laoreet dignissim. Turpis convallis aptent torquent accumsan dignissim
+                    cursus primis. Donec vivamus penatibus lacus mauris vitae laoreet est. Pulvinar nisi dictum facilisi
+                    litora laoreet dapibus malesuada. Dictum mattis sapien, duis congue inceptos leo nisi nisl.
+
+                    Porta malesuada senectus eget tristique suscipit urna metus. Fusce curae litora aliquet himenaeos
+                    aliquet auctor dui. Nisi varius torquent senectus nascetur, maximus non orci ornare. Aliquet
+                    condimentum enim euismod molestie mi pellentesque mattis! Inceptos nibh mattis non nullam velit.
+                    Integer vitae tristique leo vestibulum hendrerit aliquet dolor mi torquent. Convallis lectus
+                    maecenas torquent scelerisque taciti. Mauris habitant libero; odio turpis nec bibendum porttitor mi.
+
+                    Gravida nascetur ante elementum elit, torquent aenean. Nulla class himenaeos mollis ultricies, quis
+                    vulputate dapibus curabitur cursus. Diam enim eu per magnis nam vulputate. Pulvinar neque nam eu
+                    placerat dignissim magna. Felis nostra mattis justo tempor pulvinar placerat. Metus conubia libero
+                    aliquet sem; interdum eu suspendisse porta. Imperdiet a potenti accumsan ac; dictum nullam vitae.
+                    Pulvinar integer auctor ultricies; aliquam bibendum donec nibh. Habitant turpis mauris ridiculus
+                    tristique pretium placerat.
+                </p> -->
+            </div>
         </div>
-    </section> -->
-
-    <!-- <section id='qualifications'>
-        <div class="container">
-        </div>
-
-    </section> -->
+    </div>
+</section>
 </body>
 
 </html>
