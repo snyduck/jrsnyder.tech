@@ -1,5 +1,4 @@
-body
- {
+body {
   min-height: 100vh;
   background-image: linear-gradient(#555555, #1a2028);
   background-repeat: no-repeat;
@@ -8,7 +7,7 @@ body
 .content {
   font-size: 2rem;
   color: white;
-  padding: 5rem 0rem;
+  padding: 1.5rem 0;
 }
 
 #intro-banner {
@@ -17,7 +16,7 @@ body
   background-color: rgba(0, 0, 0, 0.258);
   padding: 10rem 0;
   min-height: 50vh;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 .headshot {
@@ -38,12 +37,22 @@ body
   margin: 0 1rem 0 0;
 }
 
-.site-content h1 {
-  font-size: 2rem;
-}
 .site-content p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
+.site-content h1 {
+  font-size: 2.1rem;
+}
+#footer {
+  padding: 0 0 2%;
+  bottom: auto;
+  text-align: center;
+}
+
+.footer-text {
+  color: rgb(126, 121, 121);
+}
+
 
 @media only screen and (max-width: 993px) {
   #intro-banner {
